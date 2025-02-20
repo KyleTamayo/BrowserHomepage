@@ -1,3 +1,32 @@
-body {
-    margin: 100px;
+:root {
+    --sans: "JetBrains Mono";
+    --blue: #121559;
+    --darkblue: #0F1140;
+    --verydarkblue: #0A0E26;
+    --purple: #3132A6;
+    --pink: #F25CD9;
+}
+
+html {
+    box-sizing: border-box;
+    background-color: var(--darkblue);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--sans), sans-serif;
+    color: var(--pink);
+}
+
+li,
+a {
+    font-family: var(--sans), sans-serif;
+    color: var(--purple);
 }
