@@ -5,6 +5,7 @@
     --verydarkblue: #0A0E26;
     --purple: #3132A6;
     --pink: #F25CD9;
+    --white: #f7f8fa
 }
 
 html {
@@ -28,5 +29,5 @@ h3 {
 li,
 a {
     font-family: var(--sans), sans-serif;
-    color: var(--purple);
+    color: var(--white);
 }
