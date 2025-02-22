@@ -1,16 +1,19 @@
 :root {
-    --sans: "JetBrains Mono";
+    --sans: "JetBrains Mono", sans-serif;
     --blue: #121559;
     --darkblue: #0F1140;
     --verydarkblue: #0A0E26;
     --purple: #3132A6;
     --pink: #F25CD9;
-    --white: #f7f8fa
+    --white: #f7f8fa;
+    --font-size: 1.3rem;
 }
 
 html {
     box-sizing: border-box;
     background-color: var(--darkblue);
+    font-size: var(--font-size);
+    padding: 1rem;
 }
 
 *,
@@ -22,12 +25,33 @@ html {
 h1,
 h2,
 h3 {
-    font-family: var(--sans), sans-serif;
+    font-family: var(--sans);
     color: var(--pink);
+    margin: 0;
 }
 
 li,
 a {
-    font-family: var(--sans), sans-serif;
+    font-family: var(--sans);
     color: var(--white);
+}
+
+nav {
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
 }
