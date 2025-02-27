@@ -51,6 +51,11 @@ nav ul {
     gap: 2rem;
 }
 
+nav li:first-child {
+    flex-basis: 100%;
+    text-align: center;
+}
+
 nav a {
     text-decoration: none;
     display: block;
