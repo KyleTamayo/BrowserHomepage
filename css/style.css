@@ -1,10 +1,10 @@
 :root {
     --sans: "JetBrains Mono", sans-serif;
     --blue: #121559;
-    --darkblue: #0F1140;
-    --verydarkblue: #0A0E26;
-    --purple: #3132A6;
-    --pink: #F25CD9;
+    --darkblue: #0f1140;
+    --verydarkblue: #0a0e26;
+    --purple: #3132a6;
+    --pink: #f25cd9;
     --white: #f7f8fa;
     --font-size: 1.3rem;
 }
@@ -43,7 +43,15 @@ a {
     overflow: hidden;
 }
 
+.content-wrapper {
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: cyan;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 500px;
+}
+
 #roadmap {
     margin: 0 auto;
-    
 }
