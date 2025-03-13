@@ -39,8 +39,9 @@ a {
 
 .content {
     padding: 0 18px;
-    display: none;
-    overflow: hidden;
+}
+.content h2 {
+
 }
 
 .content-wrapper {
